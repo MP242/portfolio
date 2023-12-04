@@ -1,5 +1,5 @@
 import router from "next/router";
-import styles from "./SwitchLanguage.module.css";
+import styles from "./SwitchLanguage.module.scss";
 
 const SwitchLanguage = () => {
 

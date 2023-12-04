@@ -1,6 +1,6 @@
 import { appWithTranslation } from 'next-i18next'
 import { ThemeProvider } from 'next-themes'
-import '../styles/styles.css'
+import '../styles/styles.scss'
 
 const MyApp = ({ Component, pageProps }) => (
   <ThemeProvider>

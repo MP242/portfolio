@@ -1,0 +1,105 @@
+#home {
+  background-color: var(--myProfile);
+  height: 100vh;
+  display: flex;
+}
+
+.container {
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin : 0 auto;
+  gap: 50px;
+  padding-top: 70px;
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+
+    &__profile {
+      max-width: 410px;
+      height: 300px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: flex-start;
+
+      &__title {
+        
+        &__titleRow {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          flex-direction: row;
+
+          &__svg {
+            width: 50px;
+            height: 50px;
+          }
+        }
+      }
+
+      &__presentation {
+        text-align: justify;
+        line-height: 25px;
+        // font-size: 16px;
+      }
+
+      &__stack {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 10px;
+
+        &__item {
+          color: var(--fg);
+
+          &:hover {
+            color: var(--blueHover);
+            transition: all 0.3s;
+            cursor : pointer;
+          }
+        }
+      }
+    }
+
+    &__profileImg {
+      height: 300px;
+      border-radius: 50%;
+      object-fit: cover;
+      display: block;
+      border: 3px solid var(--fg);
+      animation: morph 8s ease-in-out infinite;
+      // border-radius: 45% 70% 90% 45%/65% 50% 90% 65%;
+    }
+  }
+
+  &__skills {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20px 0;
+  }
+}
+
+@keyframes morph {
+  0% {
+    border-radius: 60% 40% 30% 80%/60% 40% 70% 50%;
+  }
+  50% {
+    border-radius: 45% 70% 90% 45%/65% 50% 90% 65%;
+  }
+  100% {
+    border-radius: 60% 40% 30% 80%/60% 40% 70% 50%;
+  }
+}

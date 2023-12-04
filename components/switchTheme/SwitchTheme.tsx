@@ -1,5 +1,5 @@
 import { useTheme } from "next-themes";
-import styles from "./SwitchTheme.module.css";
+import styles from "./SwitchTheme.module.scss";
 
 const SwitchTheme = () => {
   const { theme, setTheme } = useTheme();

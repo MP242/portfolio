@@ -1,8 +1,30 @@
 {
-    "welcome":"Bienvenue dans le monde de Node.js",
-    "about":"A propos de Node.js",
-    "contact":"Contactez-nous",
-    "jobTitle1":"Développeur",
-    "jobTitle2":"Full Stack",
-    "presentation" : "Bonjour, je suis Marc Pollet. Un développeur Full stack passionné basé à Saint-Leu, La Réunion."
-}
+    "home": "Accueil",
+    "about": "À propos",
+    "projects": "Projets",
+    "contact": "Contact",
+    "jobTitle1": "Développeur",
+    "jobTitle2": "Full Stack",
+    "presentation": "Salut, je suis Marc Pollet. Un développeur Full stack passionné basé à Saint-Leu, La Réunion.",
+    "about me section": "À PROPOS DE MOI",
+    "about me title": "Un développeur Fullstack dédié basé à St-Leu, à La Réunion.📍",
+    "about me text1": "Bonjour ! Je suis Marc Pollet, un développeur fullstack animé par une profonde passion pour la technologie et une formation en ingénierie. Avec un parcours de plus de 7 ans dans le secteur industriel, je me suis orienté vers le domaine dynamique et en constante évolution du développement web.",
+    "about me text2": "Au cours des deux dernières années, je me suis plongé dans l'élaboration de solutions numériques qui se démarquent par leur innovation et leur efficacité. Mon expertise s'étend de la conception frontale, où je privilégie l'expérience utilisateur et l'attrait esthétique, aux subtilités du développement backend, où la fonctionnalité et la performance sont clés. J'ai une affection particulière pour l'intégration des principes de conception avec des algorithmes de données complexes, transformant des idées abstraites en produits numériques concrets et engageants.",
+    "about me text3": "Qu'est-ce qui me distingue ?",
+    "about me text4": "C'est ma capacité à allier prouesse technique et pensée créative, garantissant que chaque projet non seulement répond aux attentes, mais les dépasse. J'aborde chaque défi avec un point de vue global, considérant chaque angle pour offrir des expériences web non seulement optimisées, mais aussi mémorables et impactantes. Mon état d'esprit d'ingénieur contribue à cela, me permettant d'aborder les problèmes avec une perspective unique, assurant des solutions robustes et évolutives. En résumé, mon passage d'ingénieur à développeur fullstack a été motivé par une quête d'apprentissage et un désir d'avoir un impact concret dans le monde numérique. Je suis excité par le potentiel de la technologie à transformer les idées en réalité et je suis toujours à la recherche d'opportunités pour repousser les limites de ce qui est possible dans le développement web.",
+    "portfolio": "PORTFOLIO",
+    "portfolio title": "Chaque projet est une création distincte et originale  👨🏻‍🎨",
+    "project1": {
+      "title": "Page statique pour une web application de VTC 🚕",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod, nisl vitae aliquam ultricies, nunc nisl ultricies nunc, vitae aliquam elit nisl vitae elit. Donec euismod, nisl vitae aliquam ultricies, nunc nisl ultricies nunc, vitae aliquam elit nisl vitae elit."
+    },
+    "project2" : {
+      "title": "CAR RENTAL (FEBRUARY 2023) 🚗",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod, nisl vitae aliquam ultricies, nunc nisl ultricies nunc, vitae aliquam elit nisl vitae elit. Donec euismod, nisl vitae aliquam ultricies, nunc nisl ultricies nunc, vitae aliquam elit nisl vitae elit."
+    },
+    "project3" : {
+        "title": "Page statique pour une web application de VTC 🚕",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod, nisl vitae aliquam ultricies, nunc nisl ultricies nunc, vitae aliquam elit nisl vitae elit. Donec euismod, nisl vitae aliquam ultricies, nunc nisl ultricies nunc, vitae aliquam elit nisl vitae elit."
+    }
+  }
+  

@@ -1,0 +1,27 @@
+// background colors
+$bg-gray: #f8f8f8;
+$bg-white: #ffffff;
+
+// text color
+$text-black: #010103;
+$text-orange: #ff4d30;
+$btn-black: #161616;
+$text-gray: #706f7b;
+
+:root {
+    --fg: #171717;
+    --bg: white;
+    --myProfile: #f9f9f9;
+    --title: #2d2e32;
+    --hover: #eaeaea;
+    --blueHover: #147efb;
+  }
+  
+  [data-theme="dark"] {
+    --fg: #fdfdfd;
+    --bg: #171717;
+    --myProfile: #2b2b2b;
+    --title: #f9f9f9;
+    --hover: #383838;
+    --blueHover: #147efb;
+  }
