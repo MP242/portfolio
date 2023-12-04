@@ -6,7 +6,8 @@ import { projectData } from "../../pages/api/projectData";
 import { useTranslation } from "next-i18next";
 
 type Project = {
-  id: string;
+  id: number;
+  name: string;
   href: string;
   src: string;
   title: string;
@@ -27,15 +28,15 @@ const Projects = () => {
 
         {projectData.map((project: Project) => {
           return (
-            <div className={styles.container__projects}>
+            <div key={project.id} className={styles.container__projects}>
               <div className={styles.container__projects__img}>
                 <a href={project.href}>
                   <img src={project.src} alt="developpeur fullstack" />
                 </a>
               </div>
               <div className={styles.container__projects__text}>
-                <h3>{t([`common`, `${project.id}.title`])}</h3>
-                <p>{t([`common`, `${project.id}.description`])}</p>
+                <h3>{t([`common`, `${project.name}.title`])}</h3>
+                <p>{t([`common`, `${project.name}.description`])}</p>
                 <div className={styles.container__projects__text__stack}>
                   {project.stack.map((tech) => (
                     <p key={tech}>{tech}</p>
