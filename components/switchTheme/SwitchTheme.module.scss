@@ -1,0 +1,17 @@
+.switchThemeContainer {
+  padding: 8px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.9;
+  transition: 0.3s;
+  margin: 0 30px;
+  transition: 0.3s ease-in-out;
+}
+
+.switchThemeContainer:hover {
+  opacity: 1;
+  background-color: var(--hover);
+  cursor : pointer;
+}

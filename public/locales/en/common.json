@@ -1,0 +1,21 @@
+{
+  "home": "Home",
+  "about": "About",
+  "projects": "Projects",
+  "contact": "Contact",
+  "jobTitle1": "Full Stack",
+  "jobTitle2": "Developer",
+  "presentation": "Hi, I'm Marc Pollet. A passionate Full stack Developer based in Saint-Leu, La Réunion.",
+  "about me section": "ABOUT ME",
+  "about me title": "A dedicated Fullstack developer based in St-Leu, at La Réunion.📍",
+  "about me text1": "Hello! I'm Marc Pollet, a fullstack developer driven by a deep passion for technology and an engineering background. With a journey that spans over 7 years in the industrial sector, I've transitioned into the dynamic and ever-evolving realm of web development.",
+  "about me text2": "In the last two years, I've been immersing myself in crafting digital solutions that stand out for their innovation and efficiency. My expertise ranges from front-end design, where I prioritize user experience and aesthetic appeal, to the intricate workings of back-end development, where functionality and performance are key. I have a particular fondness for weaving together design principles with complex data algorithms, transforming abstract ideas into concrete, engaging digital products.",
+  "about me text3" : "What sets me apart? ",
+  "about me text4": "It's my ability to blend technical prowess with creative thinking, ensuring that every project not only meets but exceeds expectations. I approach each challenge with a comprehensive viewpoint, considering every angle to deliver web experiences that are not just optimized, but also memorable and impactful. My engineering mindset contributes to this, enabling me to approach problems with a unique perspective, ensuring robust and scalable solutions. In summary, my journey from an engineer to a fullstack developer has been driven by a quest for learning and a desire to make a tangible impact in the digital world. I am excited about the potential of technology to transform ideas into reality and am always looking for opportunities to push the boundaries of what's possible in web development.",
+  "portfolio": "PORTFOLIO",
+  "portfolio title": "Every project is a distinct and original creation 👨🏻‍🎨",
+  "project1": {
+    "title": "Project 1",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod, nisl vitae aliquam ultricies, nunc nisl ultricies nunc, vitae aliquam elit nisl vitae elit. Donec euismod, nisl vitae aliquam ultricies, nunc nisl ultricies nunc, vitae aliquam elit nisl vitae elit."
+  }
+}

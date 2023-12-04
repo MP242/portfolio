@@ -1,0 +1,128 @@
+@use "./colors" as *;
+@use "./typhography" as *;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--bg);
+  font-family: $titles-font;
+  position: relative;
+}
+
+section {
+  max-width: 2128px !important;
+  margin: 0 auto !important;
+  padding: 0 40px !important;
+}
+
+h1 {
+  font-family: $titles-font;
+  font-weight: 700;
+  line-height: 80px;
+  font-size: $h1-size;
+  margin: 0;
+  padding: 0;
+  color: var(--title);
+}
+
+h2 {
+  font-family: $titles-font;
+  font-weight: 700;
+  font-size: $h2-size;
+  margin: 0;
+  padding: 0;
+  color: var(--title);
+}
+
+h3 {
+  font-family: $titles-font;
+  font-weight: 700;
+  font-size: $h3-size;
+  margin: 0;
+  padding: 0;
+  color: var(--title);
+  line-height: 32px;
+}
+
+h4 {
+  font-family: $titles-font;
+  font-weight: 700;
+  font-size: $h4-size;
+  margin: 0;
+  padding: 0;
+  color: var(--blueHover);
+  padding-bottom : 10px;
+}
+
+p {
+  font-family: $text-font;
+  font-size: $p-size;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+}
+
+ul li {
+  padding-right: 30px;
+}
+
+a {
+  // color: var(--fg);
+  text-decoration: none;
+  font-family: $text-font;
+  
+}
+
+
+// // scroll bar ------
+
+// /* Firefox */
+// * {
+//   scrollbar-width: thin;
+//   scrollbar-color: #ff4d30 #ffffff;
+// }
+
+// /* Chrome, Edge and Safari */
+// *::-webkit-scrollbar {
+//   width: 10px;
+//   width: 10px;
+// }
+// *::-webkit-scrollbar-track {
+//   border-radius: 5px;
+//   background-color: #ffffff;
+// }
+
+// *::-webkit-scrollbar-track:hover {
+//   background-color: #ffffff;
+// }
+
+// *::-webkit-scrollbar-track:active {
+//   background-color: #ffffff;
+// }
+
+// *::-webkit-scrollbar-thumb {
+//   border-radius: 20px;
+//   background-color: #ff4d30;
+// }
+
+// *::-webkit-scrollbar-thumb:hover {
+//   background-color: #ff4d30;
+// }
+
+// *::-webkit-scrollbar-thumb:active {
+//   background-color: #ff2525;
+// }

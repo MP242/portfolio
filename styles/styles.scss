@@ -1,0 +1,114 @@
+@forward "../styles/global";
+@forward "../components/navbar/Navbar.module.scss";
+@forward "../components/switchLanguage/SwitchLanguage.module.scss";
+@forward "../components/switchTheme/SwitchTheme.module.scss";
+@forward "../components/hero/Hero.module.scss";
+@forward "../components/about/About.module.scss";
+@forward "../components/projects/Projects.module.scss";
+@forward "../components/contact/Contact.module.scss";
+@forward "../components/footer/Footer.module.scss";
+
+
+// html,
+// body {
+//   padding: 0;
+//   margin: 0 auto;
+//   scroll-behavior: smooth;
+//   font-family: "Poppins", sans-serif;
+//   background: var(--bg);
+//   color: var(--fg);
+// }
+
+// h1 {
+//   font-family: "Poppins", sans-serif;
+//   font-weight: 700;
+//   font-size: 62px;
+//   margin: 0;
+//   padding: 0;
+//   color: var(--title);
+// }
+// h3 {
+//   font-family: "Poppins", sans-serif;
+//   font-weight: 700;
+//   font-size: 17px;
+//   margin: 0 0 10px 0;
+//   /* margin: -10px; */
+//   padding: 0;
+//   color: var(--blueHover);
+// }
+// h4 {
+//   font-size: 25px;
+//   line-height: 45px;
+//   margin: 0 0 15px 0;
+// }
+
+// p {
+//   font-family: "Mulish", sans-serif;
+//   font-size: 16px;
+// }
+
+// select {
+//   font-size: 24px;
+// }
+
+// a {
+//   color: var(--fg);
+//   text-decoration: none;
+// }
+// nav {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   gap: 20px;
+// }
+
+// nav ul {
+//   list-style: none;
+//   margin: 0;
+//   padding: 0;
+//   display: flex;
+// }
+
+// nav ul a {
+//   color: var(--fg);
+//   text-decoration: none;
+//   font-weight: 600;
+//   transition: all 0.3s;
+// }
+
+// nav ul a:hover {
+//   color: #147efb;
+//   transition: all 0.3s;
+// }
+
+// section {
+//   height: 100vh;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   flex-direction: column;
+// }
+
+// .container {
+//   max-width: 600px;
+//   padding: 0 20px;
+// }
+
+
+// .stackContainer {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   flex-direction: row;
+//   flex-wrap: wrap;
+// }
+
+// .stackContainer p {
+//   padding-right: 30px;
+//   border-right: 2px solid rgba(45, 46, 50, 0.5);
+// }
+
+
+
+
+

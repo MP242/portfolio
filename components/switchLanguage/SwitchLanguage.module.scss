@@ -1,0 +1,19 @@
+.switchLanguageContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  margin: 0 30px;
+
+  img {
+    padding: 8px;
+    border-radius: 50%;
+    transition: 0.3s ease-in-out;
+  }
+
+  img:hover {
+    opacity: 1;
+    background-color: var(--hover);
+    cursor : pointer;
+  }
+}
