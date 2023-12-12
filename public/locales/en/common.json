@@ -15,7 +15,26 @@
   "portfolio": "PORTFOLIO",
   "portfolio title": "Every project is a distinct and original creation 👨🏻‍🎨",
   "project1": {
-    "title": "Project 1",
+    "title": "Single page for VTC web application 🚕",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod, nisl vitae aliquam ultricies, nunc nisl ultricies nunc, vitae aliquam elit nisl vitae elit. Donec euismod, nisl vitae aliquam ultricies, nunc nisl ultricies nunc, vitae aliquam elit nisl vitae elit."
+  },
+  "project2" : {
+    "title": "CAR RENTAL (FEBRUARY 2023) 🚗",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod, nisl vitae aliquam ultricies, nunc nisl ultricies nunc, vitae aliquam elit nisl vitae elit. Donec euismod, nisl vitae aliquam ultricies, nunc nisl ultricies nunc, vitae aliquam elit nisl vitae elit."
+  },
+  "project3" : {
+      "title": "Patati patata ",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod, nisl vitae aliquam ultricies, nunc nisl ultricies nunc, vitae aliquam elit nisl vitae elit. Donec euismod, nisl vitae aliquam ultricies, nunc nisl ultricies nunc, vitae aliquam elit nisl vitae elit."
+  },
+  "contactSection":{
+    "title": "CONTACT",
+    "getInTouch": "Whether you want to get in touch, talk about a project collaboration, or just say hi, I'd love to hear from you.",
+    "email": "EMAIL",
+    "myEmail" : "Marc.pollet242@gmail.com",
+    "phone": "PHONE",
+    "myPhone": "+262 693 51 52 32"
+  },
+  "footerSection": {
+    "text": "Copyright © 2023 Marc Pollet. All rights are reserved"
   }
 }

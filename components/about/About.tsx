@@ -8,7 +8,7 @@ const About = () => {
   return (
     <section id="about">
       <div className={styles.container}>
-        <img src="/images/pc-dev.jpg" alt="developpeur fullstack" />
+        <img src="/images/pc-dev.webp" alt="developpeur fullstack" />
         <div className={styles.container__text}>
           <h4>{t("about me section")}</h4>
           <h3>{t("about me title")}</h3>

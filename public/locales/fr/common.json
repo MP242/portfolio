@@ -5,7 +5,7 @@
     "contact": "Contact",
     "jobTitle1": "Développeur",
     "jobTitle2": "Full Stack",
-    "presentation": "Salut, je suis Marc Pollet. Un développeur Full stack passionné basé à Saint-Leu, La Réunion.",
+    "presentation": "Salut, je suis Marc Pollet. Développeur Full stack passionné basé à Saint-Leu, La Réunion.",
     "about me section": "À PROPOS DE MOI",
     "about me title": "Un développeur Fullstack dédié basé à St-Leu, à La Réunion.📍",
     "about me text1": "Bonjour ! Je suis Marc Pollet, un développeur fullstack animé par une profonde passion pour la technologie et une formation en ingénierie. Avec un parcours de plus de 7 ans dans le secteur industriel, je me suis orienté vers le domaine dynamique et en constante évolution du développement web.",
@@ -25,6 +25,17 @@
     "project3" : {
         "title": "Page statique pour une web application de VTC 🚕",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod, nisl vitae aliquam ultricies, nunc nisl ultricies nunc, vitae aliquam elit nisl vitae elit. Donec euismod, nisl vitae aliquam ultricies, nunc nisl ultricies nunc, vitae aliquam elit nisl vitae elit."
+    },
+    "contactSection":{
+      "title": "CONTACT",
+      "getInTouch": "Que vous souhaitiez prendre contact, parler d'une collaboration de projet, ou simplement dire bonjour, n'hésitez pas à me contacter.",
+      "email": "EMAIL",
+      "myEmail" : "Marc.pollet242@gmail.com",
+      "phone": "TELEPHONE",
+      "myPhone": "+262 693 51 52 32"
+    },
+    "footerSection": {
+      "text": "Copyright © 2023 Marc Pollet. Tous droits réservés."
     }
   }
   

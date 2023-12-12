@@ -98,3 +98,24 @@
     }
   }
 }
+
+@media screen and (max-width: 450px) {
+  .container {
+    width: 100%;
+    // padding: 0 20px;
+
+    &__projects {
+      height: auto;
+      width: 100%;
+      flex-direction: column;
+
+      &__img {
+        height: 140px;
+      }
+
+      &__text {
+        height: auto;
+      }
+    }
+  }
+}

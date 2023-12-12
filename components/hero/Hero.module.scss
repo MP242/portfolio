@@ -103,3 +103,48 @@
     border-radius: 60% 40% 30% 80%/60% 40% 70% 50%;
   }
 }
+
+@media screen and (max-width: 450px) {
+  .container {
+    width: 100%;
+    padding: 0 20px;
+
+    &__content {
+      flex-direction: column;
+      gap: 20px;
+
+      &__profile {
+        max-width: 100%;
+        height: auto;
+        align-items: center;
+
+        & h1 {
+          font-size: 45px;
+          width: 100%;
+        }
+
+        &__title {
+          &__titleRow {
+            // flex-direction: column;
+            gap: 0;
+          }
+        }
+      }
+
+      &__profileImg {
+        height: 200px;
+        width: 200px;
+      }
+    }
+
+    &__skills {
+      & ul {
+        flex-wrap:wrap;
+
+        & li {
+          padding-right: 14px;
+        }
+      }
+    }
+  }
+}

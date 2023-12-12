@@ -25,10 +25,10 @@ const Hero = () => {
             </div>
             <p className={styles.container__content__profile__presentation}>{t("presentation")}</p>
             <span className={styles.container__content__profile__stack}>
-              <a href="https://www.github.com" className={styles.container__content__profile__stack__item}>
+              <a href="https://github.com/MP242" aria-label="Profil github de Marc Pollet" className={styles.container__content__profile__stack__item}>
                 <GithubSvg />
               </a>
-              <a href="https://www.linkedin.com" className={styles.container__content__profile__stack__item}>
+              <a href="https://www.linkedin.com/in/marcpollet242/" aria-label="Profil LinkedIn de Marc Pollet" className={styles.container__content__profile__stack__item}>
                 <LinkedinSvg />
               </a>
             </span>
@@ -62,7 +62,7 @@ const Hero = () => {
             </li>
             <li>
               <img
-                src="https://skillicons.dev/icons?i=python,flask,scikitlearn&theme=dark"
+                src="https://skillicons.dev/icons?i=python,flask&theme=dark"
                 alt="skill-icon"
               />
             </li>
