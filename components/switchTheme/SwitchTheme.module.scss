@@ -6,8 +6,9 @@
   align-items: center;
   opacity: 0.9;
   transition: 0.3s;
-  margin: 0 30px;
   transition: 0.3s ease-in-out;
+  height: 40px;
+  width: 40px;
 
   &:hover {
     opacity: 1;

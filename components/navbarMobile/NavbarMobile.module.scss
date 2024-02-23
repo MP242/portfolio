@@ -1,0 +1,45 @@
+@use "../../styles/global/typhography" as *;
+
+.container {
+  display: none;
+}
+
+@media screen and (max-width: 700px) {
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.09);
+    position: fixed;
+    top: 0;
+    z-index: 200;
+    background-color: var(--bg);
+    padding: 0 20px;
+
+    &__icone{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+
+    &__hamburger{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding : 8px;
+      border-radius: 50%;
+      transition: 0.3s ease-in-out;
+    }
+
+    &__hamburger:hover{
+      cursor: pointer;
+      background-color: var(--hover);
+    }
+    &__hamburger:active{
+      background-color: var(--bg);
+      transition: 0.3s ease-in-out;
+    }
+  }
+}

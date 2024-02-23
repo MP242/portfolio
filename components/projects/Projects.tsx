@@ -22,7 +22,7 @@ const Projects = () => {
 
   return (
     <section id="projects">
-      <div className={styles.container}>
+      {/* <div className={styles.container}>
         <h4>{t("portfolio")}</h4>
         <h3>{t("portfolio title")}</h3>
 
@@ -30,7 +30,7 @@ const Projects = () => {
           return (
             <div key={project.id} className={styles.container__projects}>
               <div className={styles.container__projects__img}>
-                <a href={project.href}>
+                <a href={project.href} aria-label="projet de Marc Pollet" >
                   <img src={project.src} alt="developpeur fullstack" />
                 </a>
               </div>
@@ -43,11 +43,11 @@ const Projects = () => {
                   ))}
                 </div>
                 <div className={styles.container__projects__text__links}>
-                  <a href={project.gitHubLink}>
+                  <a href={project.gitHubLink} aria-label="Lien vers le github de Marc Pollet">
                     code
                     <GithubSvg />
                   </a>
-                  <a href={project.demoLink}>
+                  <a href={project.demoLink} aria-label="Lien vers le projet de Marc Pollet">
                     live demo
                     <DemoSvg />
                   </a>
@@ -56,6 +56,18 @@ const Projects = () => {
             </div>
           );
         })}
+      </div> */}
+      <div className={styles.container}>
+      <h4>{t("portfolio")}</h4>
+        <h3>{t("portfolio title")}</h3>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <h3>En cours de modification ...</h3>
       </div>
     </section>
   );

@@ -11,6 +11,7 @@
   top: 0;
   z-index: 200;
   background-color: var(--bg);
+  padding : 0 20px;
 
   nav {
     ul {
@@ -37,5 +38,11 @@
         }
       }
     }
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .navbarContainer {
+    display:none;
   }
 }

@@ -6,6 +6,7 @@ import About from "../components/about/About";
 import Hero from "../components/hero/Hero";
 import Contact from "../components/contact/Contact";
 import Footer from "../components/footer/Footer";
+import NavbarMobile from "../components/navbarMobile/NavbarMobile";
 
 export default function Page() {
   const { t } = useTranslation("common");
@@ -13,6 +14,7 @@ export default function Page() {
   return (
     <>
       <Navbar />
+      <NavbarMobile />
       <Hero />
       <About />
       <Projects />

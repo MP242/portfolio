@@ -4,8 +4,12 @@
 
 .container {
   padding: 120px 0 ;
-  width: 1000px;
+  max-width: 1000px;
+  height: 100vh;
   margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
 
   & img {
     height: 480px;
@@ -20,5 +24,47 @@
   &__text {
     text-align: justify;
     line-height: 25px;
+    width: 100%;
+  }
+
+  &__chat {
+    display: flex;
+    width: 100%;
+    border-radius: 10px;
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .container {
+    width: 100%;
+    // padding: 0 20px;
+
+  }
+}
+@media screen and (max-width: 650px) {
+  .container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    & img {
+      height: auto;
+      width: 100%;
+      margin-bottom: 50px;
+    }
+
+  }
+}
+@media screen and (max-width: 450px) {
+  .container {
+    width: 100%;
+    height: 100%;
+    padding: 20px 0;
+
+    & img {
+      height: auto;
+      width: 100%;
+    }
   }
 }
