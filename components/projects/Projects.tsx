@@ -22,7 +22,7 @@ const Projects = () => {
 
   return (
     <section id="projects">
-      <div className={styles.container}>
+      {/* <div className={styles.container}>
         <h4>{t("portfolio")}</h4>
         <h3>{t("portfolio title")}</h3>
 
@@ -56,6 +56,18 @@ const Projects = () => {
             </div>
           );
         })}
+      </div> */}
+      <div className={styles.container}>
+      <h4>{t("portfolio")}</h4>
+        <h3>{t("portfolio title")}</h3>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <h3>En cours de modification ...</h3>
       </div>
     </section>
   );

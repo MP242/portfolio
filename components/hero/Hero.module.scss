@@ -161,9 +161,10 @@
   
   .container {
     width: 100%;
+    height: 100vh;;
 
     &__content {
-      flex-direction: column;
+      // flex-direction: column;
       gap: 20px;
 
       &__profile {
@@ -177,10 +178,14 @@
         }
 
         &__title {
+          display:none;
           &__titleRow {
             // flex-direction: column;
             gap: 0;
           }
+        }
+        &__presentation{
+          padding-bottom: 15px;;
         }
       }
 

@@ -6,6 +6,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@qruto/fetch-event-source": "^2.0.2",
     "i18next": "^23.7.6",
     "next": "^14.0.2",
     "next-i18next": "^15.0.0",
@@ -13,7 +14,8 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-i18next": "^13.5.0",
-    "sass": "^1.69.5"
+    "sass": "^1.69.5",
+    "uuid": "^9.0.1"
   },
   "devDependencies": {
     "@types/node": "20.9.0",

@@ -4,7 +4,7 @@ import styles from "./NavbarMobile.module.scss";
 import HamburgerSvg from "../svg/HamburgerSvg";
 import SwitchLanguage from "../switchLanguage/SwitchLanguage";
 import SwitchTheme from "../switchTheme/SwitchTheme";
-import MenuMobile from "../menuMobile/menuMobile";
+import MenuMobile from "../menuMobile/MenuMobile";
 
 const NavbarMobile = () => {
   const { t } = useTranslation("common");
@@ -22,7 +22,7 @@ const NavbarMobile = () => {
       <div className={styles.container__hamburger} onClick={showMenu}>
         <HamburgerSvg />
       </div>
-      {show && <MenuMobile open={show} />}
+      {show && <MenuMobile open={show} showMenu={showMenu} />}
     </div>
   );
 };

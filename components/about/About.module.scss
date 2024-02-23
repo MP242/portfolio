@@ -5,7 +5,11 @@
 .container {
   padding: 120px 0 ;
   max-width: 1000px;
+  height: 100vh;
   margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
 
   & img {
     height: 480px;
@@ -20,6 +24,14 @@
   &__text {
     text-align: justify;
     line-height: 25px;
+    width: 100%;
+  }
+
+  &__chat {
+    display: flex;
+    width: 100%;
+    border-radius: 10px;
+    height: 100%;
   }
 }
 
@@ -47,7 +59,8 @@
 @media screen and (max-width: 450px) {
   .container {
     width: 100%;
-    // padding: 0 20px;
+    height: 100%;
+    padding: 20px 0;
 
     & img {
       height: auto;

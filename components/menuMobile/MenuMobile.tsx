@@ -2,28 +2,36 @@ import React from "react";
 import { useTranslation } from "next-i18next";
 import styles from "./MenuMobile.module.scss";
 
-type Props = {
-    open: boolean;
+interface menuMobileProps {
+  open: boolean;
+  showMenu: () => void;
 }
 
-const MenuMobile = (props:Props) => {
+const MenuMobile = ({ open, showMenu }: menuMobileProps) => {
   const { t } = useTranslation("common");
-  const { open } = props;
   return (
-    <div className={`${open ? styles.open: styles.closed}`}>
+    <div className={`${open ? styles.open : styles.closed}`}>
       <nav className={styles.container}>
         <ul>
           <li>
-            <a href="#home">{t("home")}</a>
+            <a href="#home" onClick={showMenu}>
+              {t("home")}
+            </a>
           </li>
           <li>
-            <a href="#about">{t("about")}</a>
+            <a href="#about" onClick={showMenu}>
+              {t("about")}
+            </a>
           </li>
           <li>
-            <a href="#projects">{t("projects")}</a>
+            <a href="#projects" onClick={showMenu}>
+              {t("projects")}
+            </a>
           </li>
           <li>
-            <a href="#contact">{t("contact")}</a>
+            <a href="#contact" onClick={showMenu}>
+              {t("contact")}
+            </a>
           </li>
         </ul>
       </nav>
