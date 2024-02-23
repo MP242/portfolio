@@ -10,11 +10,11 @@ interface Message {
 }
 
 const Chat = () => {
+  const API_URL = process.env.API_URL;
   const [messages, setMessages] = useState<Message[]>([]);
   const [input, setInput] = useState("");
   const [loading, setLoading] = useState<boolean>(false);
   const [autoScroll, setAutoScroll] = useState<boolean>(true);
-
   const sessionIdRef = useRef<string>(uuidv4());
 
   useEffect(() => {
@@ -54,11 +54,8 @@ const Chat = () => {
     setMessages([...messages, userMessage]);
 
     setInput("");
-    console.log(input);
-    console.log(process.env.REACT_APP_API_URL);
-    console.log("before le call", sessionIdRef.current);
     const response = await fetchEventSource(
-      process.env.REACT_APP_API_URL + "/rag/stream",
+      API_URL + "/rag/stream",
       {
         method: "POST",
         openWhenHidden: true,
@@ -89,7 +86,6 @@ const Chat = () => {
 
   const handleReceiveMessage = (message: string) => {
     let parsedData = JSON.parse(message);
-    // console.log(parsedData)
     if (
       parsedData.answer &&
       parsedData.answer.content !== undefined &&
