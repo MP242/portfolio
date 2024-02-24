@@ -1,3 +1,5 @@
+@use "../../styles/global/typhography" as *;
+
 .container {
   max-width: 1000px;
   margin: 0 auto;
@@ -16,42 +18,58 @@
       width: 400px;
     }
 
-    &__email {
+    &__contactContainer {
       display: flex;
       flex-direction: row;
-      justify-content: center;
+      justify-content: flex-start;
       align-items: center;
       gap:20px;
+      flex-wrap: wrap;
 
-      & a {
-        height: 70px;
-        width: 70px;
-        border-radius: 50%;
-        background-color: white;
-        transition: 0.3s ease-in-out;
-        font-size: 30px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-      }
+      &__contact{
+        display:flex;
+        flex-direction: row;
+        gap : 20px;
 
-      & a:hover {
-        background-color: var(--hover);
-      }
-
-      &__text {
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: flex-start;
-
-        & h4 {
-            color: var(--fg);
+        &__icone {
+          height: 70px;
+          width: 70px;
+          border-radius: 50%;
+          background-color: white;
+          transition: 0.3s ease-in-out;
+          font-size: 30px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
-        
-        & p {
-            color:gray
+  
+        & a:hover {
+          background-color: var(--hover);
+        }
+  
+        &__text {
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-start;
+          align-items: flex-start;
+  
+          & h4 {
+              color: var(--fg);
+          }
+          
+          & p {
+              color:gray
+          }
+  
+          &__link{
+            // color: var(--bluehover);
+            text-decoration: none;
+            color:gray;
+            font: $p-size $text-font;
+            // font-family: $text-font;
+          
+          }
         }
       }
     }
