@@ -16,7 +16,7 @@ const About = () => {
           <br />
           <p>{t("about me text1")}</p>
           <br />
-          <p>Si tu veux en savoir plus sur moi, n'hésite pas a poser des questions à mon chatBot !</p>
+          <p>{t("chatBot")}</p>
           {/* <p>{t("about me text2")}</p>
           <br />
           <p>{t("about me text3")}</p>
