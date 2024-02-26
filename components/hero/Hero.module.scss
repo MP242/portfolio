@@ -152,9 +152,9 @@
   }
 }
 @media screen and (max-width: 490px) {
-
   .container {
-
+    gap:0px;
+    padding-top: 90px;
     &__content {
       gap: 20px;
 

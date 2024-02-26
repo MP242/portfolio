@@ -103,7 +103,8 @@
 
 @media screen and (max-width: 450px) {
   .container {
-    min-height: 100vh;
+    // min-height: 100vh;
+    padding: 70px 0px;
     &__content {
       flex-direction: column;
       gap: 50px;
