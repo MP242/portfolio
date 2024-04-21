@@ -64,7 +64,7 @@ const Chat = () => {
         },
         body: JSON.stringify({
           input: {
-            question: input,
+            input: input,
           },
           config: {
             configurable: {
@@ -85,13 +85,14 @@ const Chat = () => {
   };
 
   const handleReceiveMessage = (message: string) => {
+    console.log("message", message)
     let parsedData = JSON.parse(message);
     if (
       parsedData.answer &&
-      parsedData.answer.content !== undefined &&
-      parsedData.answer.content !== ""
+      parsedData.answer !== undefined &&
+      parsedData.answer !== ""
     ) {
-      setPartialMessage(parsedData.answer.content);
+      setPartialMessage(parsedData.answer);
     }
   };
 
