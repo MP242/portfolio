@@ -1,0 +1,13 @@
+services:
+  portfolio:
+    build: .
+    container_name: portfolio
+    hostname: portfolio
+    restart: always
+    environment:
+      - API_URL=${API_URL}
+    networks:
+      - portfolio_network
+
+networks:
+  portfolio_network:
